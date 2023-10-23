@@ -1,0 +1,45 @@
+.card-img-container {
+    position: relative;
+}
+
+.banner-image {
+    width: 100%; /* Set the width to 100% or your desired width */
+    height: 200px; /* Set the height to your desired height */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    object-position: center;
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px; /* Set the width of the logo */
+    height: 50px; /* Set the height of the logo */
+    object-fit: cover; /* Ensure the logo covers the container while maintaining aspect ratio */
+    border: 2px solid white; /* Optional: Add a border around the logo */
+    border-radius: 50%; /* Optional: Make the logo a circle */
+}
+
+.fixed-card {
+    /* Set your fixed width and height for the card */
+    width: 600;
+    height: 600;
+    /* Add other styles as needed */
+}
+
+.btn-green {
+    /* Add your styles for the green button, such as background color, border, and shadow */
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+.btn-green:hover,
+.btn-green:active{
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
